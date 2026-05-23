@@ -38,6 +38,8 @@ APILib.ReadAPIFileAsync(api_file_path, callback)
 
 APILib.Initialize()
 
+APILib.ClearCache()
+
 -- Internal functions
 APILib.GetCommitIdFilePath()
 APILib.GetCachedCommitId()
