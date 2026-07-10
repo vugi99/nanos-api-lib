@@ -10,7 +10,8 @@ APILib.Initializing = false
 
 --- The path to store the last known commit SHA
 ---@type string
-local COMMIT_ID_FILENAME = ".last_commit"
+local COMMIT_ID_FILENAME = "last_commit.txt"
+
 
 --- Returns whether the library has finished initializing and is ready to use.
 ---@return boolean
